@@ -1,0 +1,32 @@
+{
+  "groupings": {
+  },
+  "dependencies": {
+    "build-essential": ">= 0.0.0",
+    "users": ">= 0.0.0"
+  },
+  "recipes": {
+  },
+  "suggestions": {
+  },
+  "version": "0.0.1",
+  "providing": {
+  },
+  "conflicting": {
+  },
+  "maintainer": "NationalField",
+  "long_description": "Adds support for:\n\n- Adding sets of users to the `admin` group. [Ubuntu's sudo group]\n",
+  "platforms": {
+    "ubuntu": "= 12.04"
+  },
+  "description": "Additional resources to create users among specific groups.",
+  "maintainer_email": "engineers@nationalfield.org",
+  "attributes": {
+  },
+  "recommendations": {
+  },
+  "name": "users-ext",
+  "license": "MIT",
+  "replacing": {
+  }
+}
