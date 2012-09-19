@@ -1,4 +1,4 @@
 
 users_manage "admin" do
-    group_id 999
+    group_append true
 end
