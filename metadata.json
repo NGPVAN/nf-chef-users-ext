@@ -1,32 +1,32 @@
 {
-  "groupings": {
-  },
-  "dependencies": {
-    "build-essential": ">= 0.0.0",
-    "users": ">= 0.0.0"
-  },
   "recipes": {
   },
-  "suggestions": {
-  },
-  "version": "0.0.1",
-  "providing": {
-  },
-  "conflicting": {
-  },
-  "maintainer": "NationalField",
-  "long_description": "Adds support for:\n\n- Adding sets of users to the `admin` group. [Ubuntu's sudo group]\n",
   "platforms": {
     "ubuntu": "= 12.04"
   },
-  "description": "Additional resources to create users among specific groups.",
+  "replacing": {
+  },
   "maintainer_email": "engineers@nationalfield.org",
+  "description": "Additional resources to create users among specific groups.",
+  "name": "users-ext",
   "attributes": {
   },
+  "conflicting": {
+  },
+  "suggestions": {
+  },
+  "groupings": {
+  },
+  "providing": {
+  },
+  "license": "MIT",
+  "maintainer": "NationalField",
   "recommendations": {
   },
-  "name": "users-ext",
-  "license": "MIT",
-  "replacing": {
-  }
+  "dependencies": {
+    "users": ">= 0.0.0",
+    "build-essential": ">= 0.0.0"
+  },
+  "version": "0.0.1",
+  "long_description": "Adds support for:\n\n- Adding sets of users to the `admin` group. [Ubuntu's sudo group]\n- Adding sets of users to the `www-data` group. [Ubuntu apache's group]\n"
 }

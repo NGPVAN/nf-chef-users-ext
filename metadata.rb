@@ -14,5 +14,6 @@ long_description <<-EOH
 Adds support for:
 
 - Adding sets of users to the `admin` group. [Ubuntu's sudo group]
+- Adding sets of users to the `www-data` group. [Ubuntu apache's group]
 EOH
 
