@@ -1,4 +1,3 @@
-
 users_manage "database" do
-    group_append true
+    group_id 3001
 end
